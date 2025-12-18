@@ -18,3 +18,6 @@ This challenge focuses on:
 
 Day 1: Advanced ToDo + LeetCode
 LeetCode:-Two Sum and Contains Duplicate
+
+Day 2: Advanced ToDo(Continu from day 1 ) + LeetCode
+LeetCode:-Valid Anagram
