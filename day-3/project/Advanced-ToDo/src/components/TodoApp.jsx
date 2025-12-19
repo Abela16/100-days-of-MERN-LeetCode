@@ -1,12 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
 import TodoFilters from "./TodoFilters"
+import useLocalStorage from "../hooks/useLocalStorage"
 
 function TodoApp() {
-  const [todos, setTodos] = useState([]);
-  const [filter, setFilter] = useState("all");
+  const [todos, setTodos] = useLocalStorage("todos", []);
+  const [filter, setFilter] = useState("filter", "all");
 
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }, [todos]);
 
   function addTodo(text) {
     setTodos(prev => [
@@ -45,9 +49,9 @@ function TodoApp() {
         onDeleteTodo={deleteTodo}
         onToggleTodo={toggleTodo}
       />
-      <TodoFilters 
-      currentFilter={filter}
-      onChangeFilter={setFilter}
+      <TodoFilters
+        currentFilter={filter}
+        onChangeFilter={setFilter}
       />
     </div>
   );
