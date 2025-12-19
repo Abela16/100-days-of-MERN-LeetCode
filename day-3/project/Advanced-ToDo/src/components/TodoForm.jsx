@@ -16,16 +16,16 @@ function TodoForm({onAddTodo}){
     setNewTask(""); 
   }
     return(
-        <div className="flex justify-center align-center mt-10 rounded-2xl">
+        <div className="flex gap-2 mb-4">
            <form onSubmit={handleSubmit}>
             <input 
             type="text" 
             placeholder="Enter the task ..."
             value={newTask}
             onChange={handleInput}
-            className=" border-2 w-100 "
+            className="flex-1 border rounded px-3 py-2 focus:outline-none focus:ring w-130 "
             />
-            <button type="submit" className=" bg-blue-500 px-2 py-0.5">Add</button>
+            <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer">Add</button>
            </form>
         </div>
     )

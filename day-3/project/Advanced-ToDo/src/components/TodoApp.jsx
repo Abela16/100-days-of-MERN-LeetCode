@@ -42,8 +42,9 @@ function TodoApp() {
     return true;
   });
   return (
-    <div>
-      <TodoForm onAddTodo={addTodo} />
+    <div className="flex  justify-center ">
+      <div className="bg-amber-50 w-full max-w-2xl p-6 rounded-lg shadow">
+        <TodoForm onAddTodo={addTodo} />
       <TodoList
         todos={filteredTodos}
         onDeleteTodo={deleteTodo}
@@ -53,6 +54,7 @@ function TodoApp() {
         currentFilter={filter}
         onChangeFilter={setFilter}
       />
+      </div>
     </div>
   );
 }
