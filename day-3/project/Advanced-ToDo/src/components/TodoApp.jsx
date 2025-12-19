@@ -1,9 +1,12 @@
 import { useState } from "react";
 import TodoForm from "./TodoForm";
 import TodoList from "./TodoList";
+import TodoFilters from "./TodoFilters"
 
 function TodoApp() {
   const [todos, setTodos] = useState([]);
+  const [filter, setFilter] = useState("all");
+
 
   function addTodo(text) {
     setTodos(prev => [
@@ -29,14 +32,22 @@ function TodoApp() {
       )
     );
   }
-
+  const filteredTodos = todos.filter(todo => {
+    if (filter === "active") return !todo.completed;
+    if (filter === "completed") return todo.completed;
+    return true;
+  });
   return (
     <div>
       <TodoForm onAddTodo={addTodo} />
       <TodoList
-        todos={todos}
+        todos={filteredTodos}
         onDeleteTodo={deleteTodo}
         onToggleTodo={toggleTodo}
+      />
+      <TodoFilters 
+      currentFilter={filter}
+      onChangeFilter={setFilter}
       />
     </div>
   );
