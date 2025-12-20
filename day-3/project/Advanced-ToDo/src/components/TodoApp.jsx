@@ -44,6 +44,7 @@ function TodoApp() {
   return (
     <div className="flex  justify-center ">
       <div className="bg-amber-50 w-full max-w-2xl p-6 rounded-lg shadow">
+        <h1 className="font-bold text-center text-4xl mb-5 mt-3">ToDo</h1>
         <TodoForm onAddTodo={addTodo} />
       <TodoList
         todos={filteredTodos}

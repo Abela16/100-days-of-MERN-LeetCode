@@ -21,3 +21,5 @@ LeetCode:-Two Sum and Contains Duplicate
 
 Day 2: Advanced ToDo(Continu from day 1 ) + LeetCode
 LeetCode:-Valid Anagram
+
+Day3: Complited Advanced ToDO(continu from day 1) + LeetCode(Review some leetcode hash map)
