@@ -25,3 +25,6 @@ LeetCode:-Valid Anagram
 Day3: Complited Advanced ToDO(continu from day 1) + LeetCode(Review some leetcode hash map)
 
 Day 4: LeetCode only
+
+Day 5: Learning DSA basics and reviewing code from 
+previously built projects
