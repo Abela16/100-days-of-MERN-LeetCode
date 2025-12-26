@@ -28,3 +28,5 @@ Day 4: LeetCode only
 
 Day 5: Learning DSA basics and reviewing code from 
 previously built projects
+
+Day 6: Practiced advanced Git concepts
