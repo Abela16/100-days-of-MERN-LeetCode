@@ -30,3 +30,5 @@ Day 5: Learning DSA basics and reviewing code from
 previously built projects
 
 Day 6: Practiced advanced Git concepts
+
+I paused my MERN and LeetCode challenge for a few days because I had university final exams and a hackathon competition.
