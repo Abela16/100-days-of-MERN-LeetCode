@@ -32,3 +32,13 @@ previously built projects
 Day 6: Practiced advanced Git concepts
 
 I paused my MERN and LeetCode challenge for a few days because I had university final exams and a hackathon competition.
+
+Update:
+
+The past week was busy due to the hackathon (as mentioned above) and the holiday (Gena), so I couldn’t continue the challenge consistently.
+
+This week, I also have final exams back-to-back, which forced me to pause the challenge temporarily.
+
+I haven’t stopped coding or solving problems completely, but the progress has been light and not enough to count as a full challenge day. I prefer not to count days unless I do something truly valuable.
+
+I’ll resume the challenge fully after the final exams.
