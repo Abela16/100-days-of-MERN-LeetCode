@@ -42,3 +42,9 @@ This week, I also have final exams back-to-back, which forced me to pause the ch
 I haven’t stopped coding or solving problems completely, but the progress has been light and not enough to count as a full challenge day. I prefer not to count days unless I do something truly valuable.
 
 I’ll resume the challenge fully after the final exams.
+
+day -7 and 8
+I am back 
+Solved LeetCode problems and reviewed core DSA basics to strengthen problem-solving skills.
+
+https://leetcode.com/submissions/detail/1892184379/

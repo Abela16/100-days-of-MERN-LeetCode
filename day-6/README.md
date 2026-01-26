@@ -1,4 +1,4 @@
-## Day X / 100
+ Day 6 / 100
 
  Focus
 - Practiced advanced Git concepts:
