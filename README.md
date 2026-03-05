@@ -1,50 +1,47 @@
-# 100 Days of MERN
+# 100 Days of LeetCode
 
-This repository documents my 100-day journey to become a job-ready full-stack MERN developer.
+This repository documents my **100-day challenge** focused on improving my **problem-solving skills and understanding of Data Structures & Algorithms**.
 
-Background
-I already have experience with:
- HTML, CSS, JavaScript
- React basics
- Small frontend projects
+## Goal
 
+The goal of this challenge is to:
+- Build strong algorithmic thinking
+- Improve problem-solving skills
+- Prepare for technical interviews
+- Practice consistency and discipline
 
-This challenge focuses on:
- Full-stack MERN projects
- Clean code & best practices
- DSA for interviews
- Building production-ready apps
+## What I do each day
 
+Each day I try to:
 
-Day 1: Advanced ToDo + LeetCode
-LeetCode:-Two Sum and Contains Duplicate
+- Solve LeetCode problems
+- Learn or review DSA concepts
+- Write notes about what I learned
 
-Day 2: Advanced ToDo(Continu from day 1 ) + LeetCode
-LeetCode:-Valid Anagram
+## Structure
 
-Day3: Complited Advanced ToDO(continu from day 1) + LeetCode(Review some leetcode hash map)
+Each day has its own folder:
 
-Day 4: LeetCode only
+Day-01  
+Day-02  
+Day-03  
+...
 
-Day 5: Learning DSA basics and reviewing code from 
-previously built projects
+Inside each folder:
+- README with notes
+- Problems solved
+- Key concepts learned
 
-Day 6: Practiced advanced Git concepts
+## Progress
 
-I paused my MERN and LeetCode challenge for a few days because I had university final exams and a hackathon competition.
+| Day | Focus |
+|----|------|
+| Day 1 | LeetCode + DSA basics |
+| Day 2 | Practice problems |
+| Day 3 | Arrays & problem solving |
+| ... | ... |
 
-Update:
+## Why I'm doing this
 
-The past week was busy due to the hackathon (as mentioned above) and the holiday (Gena), so I couldn’t continue the challenge consistently.
-
-This week, I also have final exams back-to-back, which forced me to pause the challenge temporarily.
-
-I haven’t stopped coding or solving problems completely, but the progress has been light and not enough to count as a full challenge day. I prefer not to count days unless I do something truly valuable.
-
-I’ll resume the challenge fully after the final exams.
-
-day -7 and 8
-I am back 
-Solved LeetCode problems and reviewed core DSA basics to strengthen problem-solving skills.
-
-https://leetcode.com/submissions/detail/1892184379/
+Consistency is the key to growth.  
+This challenge helps me stay disciplined while improving my technical skills step by step.
